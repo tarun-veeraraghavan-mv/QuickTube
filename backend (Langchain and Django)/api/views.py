@@ -20,6 +20,7 @@ from api.utils import get_transcript_from_url, get_video_id_from_url, upload_tex
 
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
+import os
 
 
 # user views
@@ -151,9 +152,9 @@ def process_video(request):
 
 
 llm = ChatOpenAI(
-    openai_api_key="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",
-    openai_api_base="https://openrouter.ai/api/v1",
-    model="deepseek/deepseek-r1-0528-qwen3-8b:free",
+    openai_api_key=os.getenv("OPENAI_API_KEY"),
+    openai_api_base=os.getenv("OPENAI_API_URL"),
+    model=os.getenv("OPENAI_API_MODEL_NAME"),
 )
 
 
