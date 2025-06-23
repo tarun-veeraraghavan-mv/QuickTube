@@ -1,3 +1,4 @@
+# Local testing via localstack
 provider "aws" {
   region     = "us-east-2"
   access_key = "test123"
