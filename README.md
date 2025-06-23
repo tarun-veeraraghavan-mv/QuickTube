@@ -33,7 +33,7 @@ The summarization and Q&A engine combines the best of Retrieval-Augmented Genera
 | Frontend           | Backend                 | LLM / RAG                     | Storage & Infra       | Auth  |
 |--------------------|-------------------------|-------------------------------|------------------------|--------|
 | Next.js (React)    | Django REST Framework   | LangChain, DeepSeek, Whisper  | Pinecone, AWS S3       | JWT    |
-| TypeScript         | Django Class-Based Views| OpenAI GPT-4                  | PostgreSQL (Optional)  | DRF SimpleJWT |
+| TypeScript         | Django Class-Based Views| Deepseek                 | PostgreSQL   | DRF SimpleJWT |
 | Tailwind CSS       | Langchain and Pinecone  | Sentence Transformers (Opt.)  | AWS S3                 |        |
 
 ---
