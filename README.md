@@ -10,8 +10,7 @@ A full-stack RAG-based AI web application that allows users to ask questions abo
 📺 **Transcript Extraction via YouTube API ** — Supports videos with and without captions  
 🔍 **RAG Pipeline** — Embeds transcript chunks and performs semantic retrieval via Pinecone  
 🔐 **User Auth & History** — Secure JWT-based login with persistent chat and video summary history  
-📥 **Download Transcripts** — Store and access full transcripts using secure AWS S3 integration  
-⚡ **Real-Time Responses** — LLM answers streamed back to frontend for a fast UX  
+📥 **Download Transcripts** — Store and access full transcripts using secure AWS S3 integration   
 🎨 **Clean, Responsive UI** — Built with Next.js, Tailwind CSS, and TypeScript  
 🛠️ **Production-Ready API** — Django REST Framework with modular MVC architecture  
 
@@ -22,7 +21,7 @@ A full-stack RAG-based AI web application that allows users to ask questions abo
 The summarization and Q&A engine combines the best of Retrieval-Augmented Generation with LLMs to return highly contextual answers:
 
 1. **Transcript Retrieval**: Extracted via YouTube API  
-2. **Chunking & Embedding**: Processed using LangChain, embedded via OpenAI or DeepSeek  
+2. **Chunking & Embedding**: Processed using LangChain, embedded via DeepSeek  
 3. **Storage & Retrieval**: Chunks stored in Pinecone Vector DB, queried based on semantic similarity  
 4. **LLM Response Generation**: Relevant chunks passed into DeepSeek/GPT-4 to generate precise summaries or answers  
 5. **Transcript Archival**: Full video transcript uploaded to AWS S3 for optional user download  
