@@ -7,7 +7,7 @@ A full-stack RAG-based AI web application that allows users to ask questions abo
 ## 🚀 Features
 
 ✅ **Ask Questions on Any YouTube Video** — Automatically transcribes and summarizes content using advanced LLMs  
-📺 **Transcript Extraction via YouTube API and Whisper** — Supports videos with and without captions  
+📺 **Transcript Extraction via YouTube API ** — Supports videos with and without captions  
 🔍 **RAG Pipeline** — Embeds transcript chunks and performs semantic retrieval via Pinecone  
 🔐 **User Auth & History** — Secure JWT-based login with persistent chat and video summary history  
 📥 **Download Transcripts** — Store and access full transcripts using secure AWS S3 integration  
@@ -21,7 +21,7 @@ A full-stack RAG-based AI web application that allows users to ask questions abo
 
 The summarization and Q&A engine combines the best of Retrieval-Augmented Generation with LLMs to return highly contextual answers:
 
-1. **Transcript Retrieval**: Extracted via YouTube API or Whisper ASR  
+1. **Transcript Retrieval**: Extracted via YouTube API  
 2. **Chunking & Embedding**: Processed using LangChain, embedded via OpenAI or DeepSeek  
 3. **Storage & Retrieval**: Chunks stored in Pinecone Vector DB, queried based on semantic similarity  
 4. **LLM Response Generation**: Relevant chunks passed into DeepSeek/GPT-4 to generate precise summaries or answers  
@@ -35,14 +35,13 @@ The summarization and Q&A engine combines the best of Retrieval-Augmented Genera
 |--------------------|-------------------------|-------------------------------|------------------------|--------|
 | Next.js (React)    | Django REST Framework   | LangChain, DeepSeek, Whisper  | Pinecone, AWS S3       | JWT    |
 | TypeScript         | Django Class-Based Views| OpenAI GPT-4                  | PostgreSQL (Optional)  | DRF SimpleJWT |
-| Tailwind CSS       | Django ORM              | Sentence Transformers (Opt.)  | AWS S3                 |        |
+| Tailwind CSS       | Langchain and Pinecone  | Sentence Transformers (Opt.)  | AWS S3                 |        |
 
 ---
 
 ## 📷 Preview
 
-🎥 Coming soon: Live demo walkthrough + deployment link  
-📎 Screenshots and video previews will be added after production polish
+https://github.com/user-attachments/assets/158c5780-2bbc-4b39-9385-50edb34e60f0
 
 ---
 
